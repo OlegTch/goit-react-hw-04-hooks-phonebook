@@ -1,0 +1,11 @@
+.container {
+  padding: 15px;
+}
+
+h1,
+h2 {
+  margin-bottom: 20px;
+  font-size: 40px;
+  line-height: 1.2;
+}
+

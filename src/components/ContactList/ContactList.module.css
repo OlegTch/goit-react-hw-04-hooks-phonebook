@@ -1,0 +1,40 @@
+.contactsList {
+  margin-left: 30px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.contactsItem {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.contactsName,
+.contactsNumber {
+  margin-right: 10px;
+}
+
+.contactsButton {
+  display: block;
+  padding: 2px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  font-size: 16px;
+  border: 2px solid #000000;
+}
+
+.contactsButton:first-letter {
+  text-transform: capitalize;
+}
+
+.contactsButton:focus,
+.contactsButton:hover {
+  box-shadow: 0px 3px 1px rgb(0 0 0 / 10%), 0px 1px 2px rgb(0 0 0 / 8%),
+    0px 2px 2px rgb(0 0 0 / 12%);
+  background-color: #2196f3;
+  color: rgb(239, 239, 239);
+  border: 2px solid rgb(133, 133, 133);
+}
